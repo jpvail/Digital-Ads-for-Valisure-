@@ -1,0 +1,107 @@
+/* BANNER STYLES */
+@import url('https://fonts.googleapis.com/css?family=Poppins:700');
+body {
+    margin: 0px;
+}
+a {
+    display: inline-block;
+    text-decoration: none;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+.banner-holder {
+    position: relative;
+    width: 300px;
+    height: 250px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    border: 1px solid #b4c3d9;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    overflow: hidden;
+}
+.cover {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    background-color: #b4c3d9;
+    top: 50%;
+    left: 50%;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+}
+.body {
+    padding: 15px 20px;
+}
+.body .text {
+    display: none;
+    color: #b4c3d9;
+    font-size: 26px;
+    line-height: 26px;
+}
+.body .next-text {
+    display: none;
+    color: #b4c3d9;
+    font-size: 26px;
+    line-height: 26px;
+}
+.body .text2 {
+    color: #f5a719;
+    font-size: 31px;
+    line-height: 31px;
+}
+.body .text3 {
+    width: 95px;
+    height: 23px;
+    margin-top: 30px;
+    padding-top: 4px;
+    color: #ffffff;
+    font-size: 12px;
+    line-height: normal;
+    text-align: center;
+    background-color: #f5a719;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+.banner-holder .image0 {
+    position: absolute;
+    right: -150px;
+    bottom: -13px;
+}
+.banner-holder .image1 {
+    display: none;
+    position: absolute;
+    right: 20px;
+    bottom: -13px;
+}
+.banner-holder .image2 {
+    position: absolute;
+    right: -150px;
+    bottom: -13px;
+}
+.banner-holder .image3 {
+    display: none;
+    position: absolute;
+    right: 0px;
+    bottom: -13px;
+}
+.bottom-body {
+    position: absolute;
+    height: 22px;
+    padding: 9px 14px 6px;
+    bottom: -37px;
+    left: 0px;
+    right: 0px;
+    background-color: #00416b;
+}
+.bottom-body img {
+    position: relative;
+}
+.bottom-body span {
+    color: #ffffff;
+    font-size: 10px;
+    float: right;
+    margin-top: 3px;
+    letter-spacing: 1px;
+    font-weight: 170px;
+}

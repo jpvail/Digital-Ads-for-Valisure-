@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="ad.size" content="width=300,height=250">
+    </script>
+    </head> 
+    <title> v2 300 x 250</title>
+    <script type="text/javascript">
+    var clickTag = "https://www.valisure.com/wellness/mental-health";
+
+    </script>
+    <style type = "text/css">
+    HTML, body {
+        margin: 0px;
+        padding: 0px;
+        border: 0px;
+    }
+
+    .responsive{
+         width: 100%;
+         max-width: 300px;
+         max-height: 250px;
+         height: auto;
+     }
+     .banner{
+         width: 298px;
+         height: 248px;
+         background-color: white;
+         border-width: 1px;
+         border-color: #b4c3d9;
+         border-style: solid;
+         position: relative;
+         overflow: hidden;
+     }
+
+     .border{
+            position: absolute;
+            top: 0px;
+            width: 298px;
+            height: 248px;
+            border-width: 1px;
+            border-color: #b4c3d9;
+            border-style: solid;
+            z-index: 1;
+        }
+
+     .footer{
+         position:absolute;
+         top: 211px;
+         left: 0px;
+     }
+     
+
+     .image{
+        position: absolute;
+        top: 88px;
+        left: -40px;
+        animation: scaledown 7s linear 3;
+        transform: scale(.55,.55) translate(115px, -34px);
+     }
+    
+    .movingtexta{
+        width: 223px;
+        height: 40px;
+        position: absolute;
+        top: 20px;
+        left: 18px;
+        opacity: 0;
+        animation: fullanimationa 7s linear 3;
+    }
+    
+    .movingtextb{ 
+        position:absolute;
+        top: 21px;
+        left:21px;
+        opacity: 1;
+        animation: fullanimationb 7s linear 3;
+    }
+
+    .button{
+        position: absolute;
+        top: 145px;
+        left: 21px;
+        opacity: 1;
+        animation: button 7s linear 3;
+    }
+
+    #link{
+        width: 300px;
+        height: 270px;
+        display: block;
+        text-indent: -999999px;
+        position: absolute;
+        top: 0px;
+        z-index:1;
+    }
+
+
+    @keyframes fullanimationa{ 
+        0%{
+            top:30px;
+            opacity: 0;
+        }
+        20%{
+            top: 20px;
+            opacity: 1;
+        }
+        40%{
+            top: 20px;
+            opacity: 1;
+        }
+        45%{
+            opacity: 0;
+            top: 20px;
+        }
+        100%{
+            opacity:0;
+            top: 20px;
+        }
+
+    }
+
+    @keyframes fullanimationb{
+        0%{
+            top:30px;
+            opacity: 0;
+        }
+        45%{
+            top:30px;
+            opacity: 0;
+        }
+        55%{
+            top:21px;
+            opacity: 1;
+        }
+        100%{
+            top: 21px;
+        }
+    }
+
+    @keyframes button{
+        0%{
+            opacity: 0;
+        }
+        45%{
+            opacity: 0;
+
+        }
+        55%{
+            opacity: 1;
+        }
+        100%{
+        }
+    }
+
+    @keyframes scaledown{
+        0%{
+            transform: scale(1,1);
+        }
+        55%{
+            
+            transform: scale(.55,.55) translate(115px, -34px);
+        }
+        100%{
+            transform: scale(.55,.55) translate(115px, -34px);
+        }
+
+    }
+        
+
+    </style>
+</head>
+<body>
+        <div class="border"> 
+        </div>
+        <div class="banner responsive" onclick="window.open(window.clickTag)" style="cursor: pointer">
+            <div class="image">
+                <img src="sad_girl.jpg">
+            </div>
+            <div class="footer">
+                <img src="footer.png">
+            </div>
+            <div class="movingtexta">
+                <img src="movingtexta.png">
+            </div>
+            <div class="movingtextb">
+                <img src="movingtextb.png">
+            </div>
+            <div class="button">
+                <img src="button.png">
+            </div>
+        </div>
+</body>
+</html>
